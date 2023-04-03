@@ -1,0 +1,51 @@
+body {
+  background-color: #212529;
+}
+
+.table-dark {
+  --bs-table-color: #fff;
+  --bs-table-bg: #212529;
+  --bs-table-border-color: #212529;
+  --bs-table-striped-bg: #212529;
+  --bs-table-striped-color: #212529;
+  --bs-table-active-bg: #212529;
+  --bs-table-active-color: #fff;
+  --bs-table-hover-bg: #212529;
+  --bs-table-hover-color: #fff;
+  color: var(--bs-table-color);
+}
+.custom-input {
+  width: 195px;
+  height: 30px; /* Adjust as needed */
+  padding: 4px;
+  border-radius: 4px;
+  border-color: #212529;
+  box-sizing: border-box;
+  background: #aab2b9;
+  color: rgb(36, 4, 4);
+}
+select{
+  width: 195px;
+  height: 30px; /* Adjust as needed */
+  padding: 2px;
+  border-radius: 4px;
+  border-color: #212529;
+  box-sizing: border-box;
+  background: #aab2b9;
+}
+
+table {
+  display: inline-table;
+  border-spacing: 0;
+}
+
+
+td, th {
+  padding: 0.25em;
+}
+
+.custom-btn-info {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
